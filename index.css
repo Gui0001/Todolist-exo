@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(white, orange);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+h1, form {
+    text-align: center;
+}
+
+h3 {
+    color: darkred;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+input {
+    border-radius: 20px;
+    padding: 4px 10px;
+    border: solid 1px gray;
+}
+
+.todos-list {
+    text-align: center;
+}
+
+.todo {
+    font-weight: normal;
+    font-size: 1rem;
+    border: solid 1px gray;
+    background-color: white;
+    width: 18rem;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.delete-btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(203, 0, 0);
+    width: 1.6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
